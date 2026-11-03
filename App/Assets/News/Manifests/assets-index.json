@@ -1,0 +1,4034 @@
+[
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_30-1.png",
+    "id": "blueneon_sheet_01",
+    "theme": "BlueNeon",
+    "source_sha256": "0a3748271ac90f89f4f19d2e94e65f98654663d7ddaf34eb5704c6f6d0356907",
+    "full_sheet": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_01.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_01_white_alpha.png",
+    "sprites": [
+      {
+        "name": "blueneon_sheet_01_panels_001.png",
+        "box": [
+          20,
+          12,
+          837,
+          85
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_002.png",
+        "box": [
+          757,
+          12,
+          240,
+          88
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_003.png",
+        "box": [
+          1015,
+          14,
+          418,
+          83
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_004.png",
+        "box": [
+          14,
+          116,
+          385,
+          140
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_005.png",
+        "box": [
+          409,
+          116,
+          377,
+          134
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_006.png",
+        "box": [
+          797,
+          116,
+          293,
+          175
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_007.png",
+        "box": [
+          1100,
+          116,
+          335,
+          157
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_008.png",
+        "box": [
+          14,
+          263,
+          385,
+          86
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_009.png",
+        "box": [
+          409,
+          260,
+          377,
+          128
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_010.png",
+        "box": [
+          797,
+          297,
+          294,
+          284
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_011.png",
+        "box": [
+          1100,
+          282,
+          335,
+          234
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_012.png",
+        "box": [
+          14,
+          356,
+          385,
+          138
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_013.png",
+        "box": [
+          409,
+          396,
+          377,
+          98
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_014.png",
+        "box": [
+          14,
+          502,
+          385,
+          181
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_015.png",
+        "box": [
+          409,
+          503,
+          377,
+          81
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_016.png",
+        "box": [
+          1101,
+          525,
+          334,
+          181
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_017.png",
+        "box": [
+          409,
+          593,
+          377,
+          84
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_018.png",
+        "box": [
+          797,
+          589,
+          294,
+          130
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_018.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_019.png",
+        "box": [
+          14,
+          689,
+          385,
+          78
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_019.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_020.png",
+        "box": [
+          410,
+          684,
+          376,
+          142
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_020.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_021.png",
+        "box": [
+          797,
+          726,
+          294,
+          246
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_021.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_022.png",
+        "box": [
+          1101,
+          715,
+          334,
+          76
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_022.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_023.png",
+        "box": [
+          14,
+          774,
+          385,
+          122
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_023.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_024.png",
+        "box": [
+          1101,
+          799,
+          334,
+          167
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_024.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_panels_025.png",
+        "box": [
+          410,
+          835,
+          377,
+          137
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_01_panels_025.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_026.png",
+        "box": [
+          14,
+          904,
+          385,
+          76
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_026.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_027.png",
+        "box": [
+          14,
+          995,
+          505,
+          77
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_027.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_028.png",
+        "box": [
+          528,
+          995,
+          293,
+          77
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_028.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_029.png",
+        "box": [
+          831,
+          994,
+          297,
+          77
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_029.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_01_components_030.png",
+        "box": [
+          1139,
+          994,
+          296,
+          77
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_01_components_030.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_30-2.png",
+    "id": "blueneon_sheet_02",
+    "theme": "BlueNeon",
+    "source_sha256": "91c60e7a740bd17ac31de48655d0225a5d82cfbc7be717376bfa2d9dc685ec12",
+    "full_sheet": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_02.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_02_white_alpha.png",
+    "sprites": [
+      {
+        "name": "blueneon_sheet_02_components_001.png",
+        "box": [
+          43,
+          12,
+          72,
+          80
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_panels_002.png",
+        "box": [
+          120,
+          9,
+          893,
+          87
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_02_panels_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_003.png",
+        "box": [
+          938,
+          9,
+          472,
+          88
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_004.png",
+        "box": [
+          57,
+          147,
+          234,
+          36
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_005.png",
+        "box": [
+          1096,
+          145,
+          327,
+          37
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_panels_006.png",
+        "box": [
+          31,
+          177,
+          454,
+          159
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_02_panels_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_panels_007.png",
+        "box": [
+          508,
+          178,
+          327,
+          155
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_02_panels_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_008.png",
+        "box": [
+          851,
+          177,
+          183,
+          158
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_009.png",
+        "box": [
+          1096,
+          188,
+          327,
+          35
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_010.png",
+        "box": [
+          1097,
+          269,
+          327,
+          34
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_011.png",
+        "box": [
+          25,
+          394,
+          257,
+          109
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_012.png",
+        "box": [
+          300,
+          392,
+          152,
+          107
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_013.png",
+        "box": [
+          465,
+          398,
+          130,
+          98
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_014.png",
+        "box": [
+          647,
+          389,
+          245,
+          37
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_015.png",
+        "box": [
+          911,
+          394,
+          249,
+          102
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_016.png",
+        "box": [
+          1178,
+          393,
+          249,
+          106
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_017.png",
+        "box": [
+          620,
+          421,
+          269,
+          78
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_018.png",
+        "box": [
+          256,
+          557,
+          102,
+          66
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_018.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_019.png",
+        "box": [
+          363,
+          557,
+          102,
+          69
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_019.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_020.png",
+        "box": [
+          471,
+          557,
+          101,
+          69
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_020.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_021.png",
+        "box": [
+          578,
+          557,
+          102,
+          69
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_021.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_panels_022.png",
+        "box": [
+          707,
+          589,
+          321,
+          213
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_02_panels_022.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_023.png",
+        "box": [
+          1055,
+          584,
+          369,
+          88
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_023.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_024.png",
+        "box": [
+          255,
+          678,
+          177,
+          46
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_024.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_025.png",
+        "box": [
+          505,
+          678,
+          175,
+          45
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_025.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_026.png",
+        "box": [
+          259,
+          714,
+          156,
+          78
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_026.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_027.png",
+        "box": [
+          522,
+          714,
+          155,
+          70
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_027.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_028.png",
+        "box": [
+          1059,
+          736,
+          362,
+          64
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_028.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_029.png",
+        "box": [
+          371,
+          858,
+          105,
+          79
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_029.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_030.png",
+        "box": [
+          482,
+          858,
+          100,
+          73
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_030.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_031.png",
+        "box": [
+          588,
+          858,
+          98,
+          79
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_031.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_032.png",
+        "box": [
+          692,
+          858,
+          95,
+          78
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_032.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_033.png",
+        "box": [
+          20,
+          985,
+          101,
+          88
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_033.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_034.png",
+        "box": [
+          126,
+          985,
+          105,
+          87
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_034.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_035.png",
+        "box": [
+          235,
+          983,
+          96,
+          88
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_035.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_036.png",
+        "box": [
+          351,
+          994,
+          101,
+          69
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_036.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_037.png",
+        "box": [
+          444,
+          985,
+          451,
+          88
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_037.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_038.png",
+        "box": [
+          857,
+          992,
+          96,
+          62
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_038.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_039.png",
+        "box": [
+          983,
+          996,
+          88,
+          67
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_039.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_040.png",
+        "box": [
+          1061,
+          992,
+          135,
+          80
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_040.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_041.png",
+        "box": [
+          1165,
+          993,
+          86,
+          66
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_041.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_042.png",
+        "box": [
+          1219,
+          986,
+          74,
+          86
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_042.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_043.png",
+        "box": [
+          1255,
+          993,
+          83,
+          68
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_043.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_02_components_044.png",
+        "box": [
+          1309,
+          986,
+          96,
+          86
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_02_components_044.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_31-3.png",
+    "id": "blueneon_sheet_03",
+    "theme": "BlueNeon",
+    "source_sha256": "cab3080f2a764e4d809d88af2e0d87aeff6dbd5adef37c27cc3770dc7e7c92a1",
+    "full_sheet": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_03.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_03_white_alpha.png",
+    "sprites": [
+      {
+        "name": "blueneon_sheet_03_panels_001.png",
+        "box": [
+          40,
+          16,
+          836,
+          57
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_03_panels_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_002.png",
+        "box": [
+          949,
+          16,
+          197,
+          59
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_003.png",
+        "box": [
+          425,
+          77,
+          197,
+          39
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_004.png",
+        "box": [
+          22,
+          164,
+          193,
+          35
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_005.png",
+        "box": [
+          546,
+          163,
+          132,
+          103
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_006.png",
+        "box": [
+          717,
+          142,
+          184,
+          192
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_007.png",
+        "box": [
+          895,
+          157,
+          147,
+          109
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_008.png",
+        "box": [
+          237,
+          199,
+          136,
+          85
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_panels_009.png",
+        "box": [
+          1102,
+          209,
+          332,
+          144
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_03_panels_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_010.png",
+        "box": [
+          22,
+          216,
+          194,
+          179
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_011.png",
+        "box": [
+          394,
+          215,
+          137,
+          54
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_012.png",
+        "box": [
+          380,
+          278,
+          78,
+          99
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_013.png",
+        "box": [
+          908,
+          277,
+          157,
+          104
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_014.png",
+        "box": [
+          469,
+          307,
+          106,
+          94
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_015.png",
+        "box": [
+          212,
+          340,
+          159,
+          52
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_016.png",
+        "box": [
+          718,
+          351,
+          171,
+          39
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_017.png",
+        "box": [
+          791,
+          454,
+          355,
+          41
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_018.png",
+        "box": [
+          21,
+          470,
+          260,
+          129
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_018.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_019.png",
+        "box": [
+          292,
+          460,
+          243,
+          140
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_019.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_020.png",
+        "box": [
+          544,
+          485,
+          178,
+          119
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_020.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_021.png",
+        "box": [
+          792,
+          530,
+          355,
+          49
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_021.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_022.png",
+        "box": [
+          1175,
+          528,
+          175,
+          49
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_022.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_023.png",
+        "box": [
+          18,
+          663,
+          186,
+          56
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_023.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_024.png",
+        "box": [
+          208,
+          662,
+          185,
+          57
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_024.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_025.png",
+        "box": [
+          397,
+          664,
+          175,
+          55
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_025.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_026.png",
+        "box": [
+          596,
+          664,
+          168,
+          105
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_026.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_027.png",
+        "box": [
+          929,
+          662,
+          175,
+          109
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_027.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_028.png",
+        "box": [
+          18,
+          729,
+          186,
+          56
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_028.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_029.png",
+        "box": [
+          208,
+          730,
+          185,
+          55
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_029.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_030.png",
+        "box": [
+          397,
+          730,
+          175,
+          55
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_030.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_031.png",
+        "box": [
+          1170,
+          703,
+          240,
+          83
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_031.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_032.png",
+        "box": [
+          1173,
+          874,
+          147,
+          49
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_032.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_033.png",
+        "box": [
+          19,
+          1000,
+          128,
+          73
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_033.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_03_components_034.png",
+        "box": [
+          828,
+          1016,
+          107,
+          57
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_03_components_034.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_32-4.png",
+    "id": "blueneon_sheet_04",
+    "theme": "BlueNeon",
+    "source_sha256": "d29e913a8cf40f15b603ac26cab0faa65c8c4ae6a7ff93e37f6d1f7a84e202ec",
+    "full_sheet": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_04.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/BlueNeon/blueneon_sheet_04_white_alpha.png",
+    "sprites": [
+      {
+        "name": "blueneon_sheet_04_components_001.png",
+        "box": [
+          1045,
+          0,
+          386,
+          48
+        ],
+        "path": "App/Assets/News/BlueNeon/Components/blueneon_sheet_04_components_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_002.png",
+        "box": [
+          299,
+          79,
+          1144,
+          44
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_003.png",
+        "box": [
+          6,
+          126,
+          965,
+          272
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_004.png",
+        "box": [
+          975,
+          126,
+          468,
+          271
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_005.png",
+        "box": [
+          6,
+          400,
+          356,
+          205
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_006.png",
+        "box": [
+          366,
+          400,
+          355,
+          206
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_007.png",
+        "box": [
+          517,
+          391,
+          277,
+          416
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_008.png",
+        "box": [
+          724,
+          400,
+          360,
+          206
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_009.png",
+        "box": [
+          1087,
+          400,
+          356,
+          206
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_010.png",
+        "box": [
+          6,
+          609,
+          346,
+          188
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_011.png",
+        "box": [
+          356,
+          609,
+          342,
+          188
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_012.png",
+        "box": [
+          701,
+          609,
+          342,
+          188
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_013.png",
+        "box": [
+          1047,
+          609,
+          396,
+          188
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_014.png",
+        "box": [
+          7,
+          801,
+          528,
+          159
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_015.png",
+        "box": [
+          538,
+          801,
+          457,
+          159
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_016.png",
+        "box": [
+          999,
+          800,
+          444,
+          160
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_017.png",
+        "box": [
+          7,
+          963,
+          791,
+          120
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "blueneon_sheet_04_panels_018.png",
+        "box": [
+          803,
+          963,
+          640,
+          119
+        ],
+        "path": "App/Assets/News/BlueNeon/Panels/blueneon_sheet_04_panels_018.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_36-5.png",
+    "id": "rederror_sheet_05",
+    "theme": "RedError",
+    "source_sha256": "7da5921fa589f71112e1cb7eca385a4f3e413d48409cd8d7cc621c465c6d6c41",
+    "full_sheet": "App/Assets/News/Sheets/RedError/rederror_sheet_05.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/RedError/rederror_sheet_05_white_alpha.png",
+    "sprites": [
+      {
+        "name": "rederror_sheet_05_panels_001.png",
+        "box": [
+          107,
+          13,
+          801,
+          88
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_05_panels_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_panels_002.png",
+        "box": [
+          834,
+          14,
+          589,
+          86
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_05_panels_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_003.png",
+        "box": [
+          384,
+          134,
+          259,
+          52
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_004.png",
+        "box": [
+          1210,
+          128,
+          225,
+          59
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_005.png",
+        "box": [
+          0,
+          205,
+          202,
+          59
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_006.png",
+        "box": [
+          207,
+          203,
+          494,
+          61
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_007.png",
+        "box": [
+          700,
+          205,
+          158,
+          57
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_008.png",
+        "box": [
+          862,
+          204,
+          157,
+          60
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_009.png",
+        "box": [
+          1024,
+          204,
+          268,
+          58
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_010.png",
+        "box": [
+          1299,
+          206,
+          136,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_panels_011.png",
+        "box": [
+          13,
+          268,
+          828,
+          77
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_05_panels_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_012.png",
+        "box": [
+          847,
+          270,
+          588,
+          76
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_013.png",
+        "box": [
+          16,
+          354,
+          300,
+          54
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_014.png",
+        "box": [
+          327,
+          353,
+          302,
+          55
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_015.png",
+        "box": [
+          635,
+          350,
+          303,
+          60
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_016.png",
+        "box": [
+          949,
+          353,
+          484,
+          55
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_017.png",
+        "box": [
+          19,
+          418,
+          233,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_018.png",
+        "box": [
+          256,
+          415,
+          266,
+          62
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_018.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_019.png",
+        "box": [
+          738,
+          418,
+          235,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_019.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_020.png",
+        "box": [
+          982,
+          419,
+          226,
+          55
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_020.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_021.png",
+        "box": [
+          1218,
+          418,
+          214,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_021.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_022.png",
+        "box": [
+          16,
+          482,
+          245,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_022.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_panels_023.png",
+        "box": [
+          269,
+          482,
+          387,
+          174
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_05_panels_023.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_024.png",
+        "box": [
+          663,
+          482,
+          162,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_024.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_025.png",
+        "box": [
+          830,
+          484,
+          169,
+          54
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_025.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_026.png",
+        "box": [
+          1073,
+          485,
+          151,
+          53
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_026.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_027.png",
+        "box": [
+          100,
+          562,
+          110,
+          61
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_027.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_028.png",
+        "box": [
+          497,
+          560,
+          220,
+          61
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_028.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_029.png",
+        "box": [
+          734,
+          562,
+          249,
+          59
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_029.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_030.png",
+        "box": [
+          996,
+          565,
+          237,
+          57
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_030.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_031.png",
+        "box": [
+          1245,
+          561,
+          188,
+          62
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_031.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_panels_032.png",
+        "box": [
+          979,
+          626,
+          454,
+          158
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_05_panels_032.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_033.png",
+        "box": [
+          16,
+          659,
+          309,
+          51
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_033.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_034.png",
+        "box": [
+          337,
+          659,
+          313,
+          51
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_034.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_035.png",
+        "box": [
+          662,
+          660,
+          336,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_035.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_036.png",
+        "box": [
+          497,
+          727,
+          153,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_036.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_037.png",
+        "box": [
+          658,
+          721,
+          310,
+          63
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_037.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_038.png",
+        "box": [
+          19,
+          792,
+          183,
+          58
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_038.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_039.png",
+        "box": [
+          263,
+          793,
+          120,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_039.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_040.png",
+        "box": [
+          445,
+          794,
+          306,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_040.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_041.png",
+        "box": [
+          752,
+          793,
+          677,
+          57
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_041.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_panels_042.png",
+        "box": [
+          14,
+          920,
+          713,
+          159
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_05_panels_042.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_043.png",
+        "box": [
+          799,
+          934,
+          449,
+          54
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_043.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_044.png",
+        "box": [
+          1326,
+          934,
+          98,
+          55
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_044.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_045.png",
+        "box": [
+          788,
+          1009,
+          552,
+          53
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_045.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_05_components_046.png",
+        "box": [
+          1328,
+          1009,
+          96,
+          56
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_05_components_046.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_37-6.png",
+    "id": "rederror_sheet_06",
+    "theme": "RedError",
+    "source_sha256": "e77e29b4796a18a7098a9c7d670ea20b854a44633bf18cf990293abc644f37da",
+    "full_sheet": "App/Assets/News/Sheets/RedError/rederror_sheet_06.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/RedError/rederror_sheet_06_white_alpha.png",
+    "sprites": [
+      {
+        "name": "rederror_sheet_06_panels_001.png",
+        "box": [
+          12,
+          11,
+          612,
+          295
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_06_panels_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_panels_002.png",
+        "box": [
+          631,
+          15,
+          800,
+          294
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_06_panels_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_003.png",
+        "box": [
+          12,
+          323,
+          494,
+          46
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_004.png",
+        "box": [
+          514,
+          327,
+          294,
+          83
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_005.png",
+        "box": [
+          815,
+          316,
+          136,
+          275
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_006.png",
+        "box": [
+          1045,
+          331,
+          127,
+          115
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_007.png",
+        "box": [
+          1174,
+          331,
+          127,
+          224
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_008.png",
+        "box": [
+          1304,
+          331,
+          128,
+          108
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_panels_009.png",
+        "box": [
+          12,
+          370,
+          494,
+          97
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_06_panels_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_010.png",
+        "box": [
+          515,
+          409,
+          293,
+          41
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_011.png",
+        "box": [
+          515,
+          450,
+          292,
+          40
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_012.png",
+        "box": [
+          1045,
+          442,
+          127,
+          112
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_013.png",
+        "box": [
+          1305,
+          446,
+          128,
+          109
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_014.png",
+        "box": [
+          12,
+          468,
+          494,
+          50
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_015.png",
+        "box": [
+          515,
+          489,
+          293,
+          81
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_016.png",
+        "box": [
+          12,
+          517,
+          494,
+          51
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_panels_017.png",
+        "box": [
+          1118,
+          585,
+          319,
+          170
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_06_panels_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_018.png",
+        "box": [
+          12,
+          595,
+          283,
+          159
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_018.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_019.png",
+        "box": [
+          301,
+          595,
+          257,
+          159
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_019.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_020.png",
+        "box": [
+          562,
+          595,
+          283,
+          158
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_020.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_021.png",
+        "box": [
+          849,
+          595,
+          265,
+          158
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_021.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_022.png",
+        "box": [
+          12,
+          763,
+          261,
+          85
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_022.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_023.png",
+        "box": [
+          277,
+          764,
+          253,
+          84
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_023.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_024.png",
+        "box": [
+          534,
+          764,
+          504,
+          84
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_024.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_025.png",
+        "box": [
+          1044,
+          762,
+          200,
+          90
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_025.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_026.png",
+        "box": [
+          1253,
+          761,
+          179,
+          92
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_026.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_027.png",
+        "box": [
+          18,
+          983,
+          157,
+          91
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_027.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_028.png",
+        "box": [
+          177,
+          983,
+          160,
+          90
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_028.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_029.png",
+        "box": [
+          341,
+          981,
+          164,
+          89
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_029.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_030.png",
+        "box": [
+          511,
+          983,
+          147,
+          90
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_030.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_031.png",
+        "box": [
+          662,
+          989,
+          149,
+          87
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_031.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_032.png",
+        "box": [
+          816,
+          989,
+          146,
+          81
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_032.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_033.png",
+        "box": [
+          967,
+          984,
+          158,
+          89
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_033.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_034.png",
+        "box": [
+          1131,
+          985,
+          147,
+          88
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_034.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_06_components_035.png",
+        "box": [
+          1284,
+          988,
+          144,
+          83
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_06_components_035.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_38-7.png",
+    "id": "rederror_sheet_07",
+    "theme": "RedError",
+    "source_sha256": "4a929293f1e6e2d639028e91500490b338edac2de599520a80645b415c380b7b",
+    "full_sheet": "App/Assets/News/Sheets/RedError/rederror_sheet_07.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/RedError/rederror_sheet_07_white_alpha.png",
+    "sprites": [
+      {
+        "name": "rederror_sheet_07_components_001.png",
+        "box": [
+          215,
+          53,
+          259,
+          34
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_002.png",
+        "box": [
+          599,
+          52,
+          181,
+          100
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_003.png",
+        "box": [
+          1179,
+          54,
+          240,
+          50
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_004.png",
+        "box": [
+          21,
+          95,
+          165,
+          147
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_005.png",
+        "box": [
+          365,
+          84,
+          170,
+          153
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_006.png",
+        "box": [
+          798,
+          83,
+          159,
+          140
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_007.png",
+        "box": [
+          956,
+          82,
+          128,
+          95
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_008.png",
+        "box": [
+          197,
+          123,
+          127,
+          80
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_009.png",
+        "box": [
+          336,
+          123,
+          101,
+          62
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_010.png",
+        "box": [
+          450,
+          122,
+          101,
+          110
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_011.png",
+        "box": [
+          1171,
+          124,
+          251,
+          48
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_012.png",
+        "box": [
+          600,
+          169,
+          180,
+          116
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_013.png",
+        "box": [
+          1239,
+          187,
+          179,
+          35
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_014.png",
+        "box": [
+          198,
+          220,
+          126,
+          60
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_015.png",
+        "box": [
+          424,
+          269,
+          168,
+          78
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_016.png",
+        "box": [
+          907,
+          249,
+          190,
+          49
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_017.png",
+        "box": [
+          228,
+          300,
+          203,
+          35
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_018.png",
+        "box": [
+          19,
+          353,
+          261,
+          167
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_018.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_019.png",
+        "box": [
+          291,
+          359,
+          238,
+          163
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_019.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_020.png",
+        "box": [
+          561,
+          358,
+          162,
+          164
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_020.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_021.png",
+        "box": [
+          839,
+          363,
+          280,
+          160
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_021.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_022.png",
+        "box": [
+          1141,
+          362,
+          238,
+          158
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_022.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_023.png",
+        "box": [
+          1274,
+          354,
+          161,
+          138
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_023.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_024.png",
+        "box": [
+          728,
+          394,
+          83,
+          90
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_024.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_025.png",
+        "box": [
+          46,
+          581,
+          249,
+          46
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_025.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_026.png",
+        "box": [
+          1088,
+          587,
+          227,
+          40
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_026.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_027.png",
+        "box": [
+          1231,
+          790,
+          196,
+          145
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_027.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_028.png",
+        "box": [
+          17,
+          807,
+          231,
+          41
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_028.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_029.png",
+        "box": [
+          16,
+          864,
+          388,
+          75
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_029.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_030.png",
+        "box": [
+          433,
+          840,
+          224,
+          57
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_030.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_031.png",
+        "box": [
+          9,
+          982,
+          149,
+          102
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_031.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_032.png",
+        "box": [
+          153,
+          989,
+          113,
+          77
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_032.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_033.png",
+        "box": [
+          298,
+          995,
+          117,
+          71
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_033.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_07_components_034.png",
+        "box": [
+          426,
+          992,
+          93,
+          78
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_07_components_034.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "Image ChatGPT 3 nov. 2026, 04_43_39-8.png",
+    "id": "rederror_sheet_08",
+    "theme": "RedError",
+    "source_sha256": "8e75aee7c908516005fdd1b52959b84b4c3656711b7121468038e0d0dea95abe",
+    "full_sheet": "App/Assets/News/Sheets/RedError/rederror_sheet_08.png",
+    "full_sheet_alpha": "App/Assets/News/Sheets/RedError/rederror_sheet_08_white_alpha.png",
+    "sprites": [
+      {
+        "name": "rederror_sheet_08_panels_001.png",
+        "box": [
+          3,
+          0,
+          829,
+          97
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_001.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_002.png",
+        "box": [
+          723,
+          0,
+          137,
+          90
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_002.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_003.png",
+        "box": [
+          902,
+          1,
+          543,
+          51
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_003.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_004.png",
+        "box": [
+          758,
+          35,
+          179,
+          54
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_004.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_005.png",
+        "box": [
+          6,
+          93,
+          343,
+          67
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_005.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_006.png",
+        "box": [
+          353,
+          97,
+          1090,
+          303
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_006.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_007.png",
+        "box": [
+          7,
+          162,
+          343,
+          237
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_007.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_008.png",
+        "box": [
+          6,
+          398,
+          380,
+          258
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_008.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_009.png",
+        "box": [
+          390,
+          399,
+          313,
+          257
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_009.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_010.png",
+        "box": [
+          707,
+          398,
+          372,
+          258
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_010.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_011.png",
+        "box": [
+          1083,
+          399,
+          360,
+          258
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_011.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_012.png",
+        "box": [
+          6,
+          656,
+          480,
+          128
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_012.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_013.png",
+        "box": [
+          490,
+          656,
+          529,
+          128
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_013.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_014.png",
+        "box": [
+          1023,
+          657,
+          420,
+          127
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_014.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_015.png",
+        "box": [
+          7,
+          788,
+          439,
+          127
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_015.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_016.png",
+        "box": [
+          451,
+          783,
+          512,
+          134
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_016.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_panels_017.png",
+        "box": [
+          967,
+          784,
+          476,
+          133
+        ],
+        "path": "App/Assets/News/RedError/Panels/rederror_sheet_08_panels_017.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_018.png",
+        "box": [
+          21,
+          954,
+          236,
+          111
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_018.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_019.png",
+        "box": [
+          258,
+          954,
+          234,
+          111
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_019.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_020.png",
+        "box": [
+          493,
+          954,
+          233,
+          111
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_020.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_021.png",
+        "box": [
+          728,
+          954,
+          227,
+          111
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_021.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_022.png",
+        "box": [
+          956,
+          954,
+          233,
+          111
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_022.png",
+        "white_alpha": true
+      },
+      {
+        "name": "rederror_sheet_08_components_023.png",
+        "box": [
+          1190,
+          954,
+          241,
+          111
+        ],
+        "path": "App/Assets/News/RedError/Components/rederror_sheet_08_components_023.png",
+        "white_alpha": true
+      }
+    ]
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__chevrons_sequence.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__chevrons_sequence.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__chevrons_sequence_poster.png",
+    "frames": 12,
+    "sha256": "f091f01cc2585bf11a9dc102f11134b12653d28aa15552046974e4e25cb818f3"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__service_deconnecte.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__service_deconnecte.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__service_deconnecte_poster.png",
+    "frames": 6,
+    "sha256": "379b707168e99cd742b903a38e2c524e516b452739b5e7dc57ae899ac7275a49"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__activation_noeuds.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__activation_noeuds.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__activation_noeuds_poster.png",
+    "frames": 6,
+    "sha256": "c474d939711d79f2f24203fd7981f09385d7faf1f3f85e04b6ce95bc39226c3a"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__neon_underline.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__neon_underline.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__neon_underline_poster.png",
+    "frames": 16,
+    "sha256": "205e908acf4819a4c3e389851933eae8e421c06f3c8047575abc32d3982ddb05"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__secousse_carte_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__secousse_carte_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__secousse_carte_erreur_poster.png",
+    "frames": 6,
+    "sha256": "d078167fc6370ce6115bffb2b07c8610570672cfc51a461dc6b6b823e015f29a"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__pulsation_alerte.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__pulsation_alerte.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__pulsation_alerte_poster.png",
+    "frames": 6,
+    "sha256": "a30541919493f470236502fa7628bffeff3e2a8ccbd2f6ced97f7b30a45a5565"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__equaliseur.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__equaliseur.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__equaliseur_poster.png",
+    "frames": 5,
+    "sha256": "a3ddf18262ac8dd8fe6c22552ad1d883c83681e6b7c5eeabb7e7bedbe8d8f183"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__etincelles_danger.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__etincelles_danger.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__etincelles_danger_poster.png",
+    "frames": 5,
+    "sha256": "3faa3cf31d5eedc461cb1fe241df28262840c3a77739361c9526aaa4dbe9754f"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__etincelles.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__etincelles.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__etincelles_poster.png",
+    "frames": 6,
+    "sha256": "268a981c49bf3e096d08d229adbc3fc7370531b595fe473c196ddaffbd4e8363"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__chargement.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__chargement.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__chargement_poster.png",
+    "frames": 5,
+    "sha256": "201aac45216022f54193a9e2dfda97c8ad499f47b0eecef9841b64cb6844902f"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__cocher_case.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__cocher_case.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__cocher_case_poster.png",
+    "frames": 5,
+    "sha256": "9104b0e41c0cb034d74abeabbc2b9a15dbc80f9cbf3bbc523630acf905d748a0"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__pcb_signal.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__pcb_signal.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__pcb_signal_poster.png",
+    "frames": 16,
+    "sha256": "7daee4434914609b6a1df9d602709f546a2434bf9bce7fc06dc9a7c94fb64431"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__balayage_progression.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__balayage_progression.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__balayage_progression_poster.png",
+    "frames": 5,
+    "sha256": "694d848fe762fa034057d41920b62d14ad1d61bd827557722ee224f9f881b8e8"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__balayage_recuperation.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__balayage_recuperation.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__balayage_recuperation_poster.png",
+    "frames": 6,
+    "sha256": "fe7d2d5f8829c52401e81e21e74ab4d7b8f4a676f47fc478e38827dd6e6880ed"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__ouverture_dialogue.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ouverture_dialogue.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ouverture_dialogue_poster.png",
+    "frames": 5,
+    "sha256": "2d33a9254079a247195962c4f3728830f3288db8aa2c6e4a45b8da1802b02aaf"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__bordure_heartbeat.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__bordure_heartbeat.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__bordure_heartbeat_poster.png",
+    "frames": 5,
+    "sha256": "ace629f48a25bc276a4956ec05cc2776911d6ef6b51595ab71759419e58a8383"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__pcb_signal.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__pcb_signal.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__pcb_signal_poster.png",
+    "frames": 16,
+    "sha256": "b569b96ec99aecba8565a5509be53a24a6180aad66ec9c19b5bca1bcb0d30353"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__interrupteur.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__interrupteur.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__interrupteur_poster.png",
+    "frames": 5,
+    "sha256": "47a4dea4fdc4b5a31958269591dbf037a14df03b521790be582ab5faf5c9ade6"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__bande_danger.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__bande_danger.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__bande_danger_poster.png",
+    "frames": 8,
+    "sha256": "16b55fa868abfebdcd41fefaf9477bd9e601b11f0d060a1838a833ef27a2039a"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__balayage_radar.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__balayage_radar.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__balayage_radar_poster.png",
+    "frames": 6,
+    "sha256": "a6fdd44023fcd505a5151daab8cee61aa45382a238a86ac397cdf48f8bcbaf4a"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__fond_modal_assombrissement.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__fond_modal_assombrissement.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__fond_modal_assombrissement_poster.png",
+    "frames": 5,
+    "sha256": "878610782773ece1542e96a65e316ee83c577a675dbf1f382033cddbef8339da"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__pulse_lumineuse.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__pulse_lumineuse.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__pulse_lumineuse_poster.png",
+    "frames": 5,
+    "sha256": "2a610f6fd189e1be37a3924653d5a50e3af6cbca5702fefc2f30c1133c343ea1"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__nodes_flow.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__nodes_flow.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__nodes_flow_poster.png",
+    "frames": 5,
+    "sha256": "ccd9394ef6c184787ccc832b9d35939e7eb95343b35dc27918f35fa7ebd0a59a"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__cercles_alarme.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__cercles_alarme.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__cercles_alarme_poster.png",
+    "frames": 4,
+    "sha256": "bfc28cc527df98d8d3344de39ccafb4c2d05d9e448f198e192f763a013ec0f06"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__survol_elevation.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__survol_elevation.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__survol_elevation_poster.png",
+    "frames": 4,
+    "sha256": "d237951db307f2cea6085614b631e2be0d76879abb851cb6c40025a5aa3bd7b1"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__holo_radar.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__holo_radar.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__holo_radar_poster.png",
+    "frames": 16,
+    "sha256": "c01a3a8201c8b955aa34ee8263c9a5dc24a807666ff9669366718b9e0da0cf57"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__ripple_bouton.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ripple_bouton.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ripple_bouton_poster.png",
+    "frames": 6,
+    "sha256": "90f9832ca2015852f89741917897607ac518b6c0e5f2f5651646c5a44d57c41c"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__laser_balaye.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__laser_balaye.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__laser_balaye_poster.png",
+    "frames": 4,
+    "sha256": "984792adfdfebb75329641785f031160314fafd45119c2cedb569f2633e471db"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__ouverture_sidebar.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ouverture_sidebar.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ouverture_sidebar_poster.png",
+    "frames": 5,
+    "sha256": "59e8ba4f6246df0ee0efc9b5ad5fc5c373808bcabbc239b90421166382b2be15"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__ticker_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__ticker_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__ticker_erreur_poster.png",
+    "frames": 8,
+    "sha256": "196114f1334c82f0587666a84f82e3338e11a4247ab6662f8e78c2e769958c04"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__focus_lumineux.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__focus_lumineux.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__focus_lumineux_poster.png",
+    "frames": 5,
+    "sha256": "aebdc50f8681cb952211b0732e7a30491622198db85999aac17bb04bbc63f85b"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__scanline.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__scanline.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__scanline_poster.png",
+    "frames": 16,
+    "sha256": "ce1e3890d51cefa86cb0a28ce1ddc51f3cb193a73f2f83c85e34640eb2f66685"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__respiration_neon.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__respiration_neon.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__respiration_neon_poster.png",
+    "frames": 5,
+    "sha256": "f206c7a051d4f45b7f6bfb7f6bc708587be8bb619f5a9c75b26a1433a565c442"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__chevrons_alerte.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__chevrons_alerte.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__chevrons_alerte_poster.png",
+    "frames": 8,
+    "sha256": "8b2932e085caf39000b5210ed5bb90c4909a6420e1a9aa22221658a1253d5fba"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__arrivee_notification_critique.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__arrivee_notification_critique.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__arrivee_notification_critique_poster.png",
+    "frames": 4,
+    "sha256": "1dd170e04ec48da2f4ca9c2524754adbbd16c6e65deddec8999bc215c64496b8"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__pulse_rouge.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__pulse_rouge.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__pulse_rouge_poster.png",
+    "frames": 4,
+    "sha256": "310aea78862b97c63691546d155ada416895018b0ebcccd686140e4605a9d1b9"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__clic_bouton.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__clic_bouton.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__clic_bouton_poster.png",
+    "frames": 5,
+    "sha256": "968c2df80ea68b910429df6f9cc15c99a9e1a6e1ec9bef537001991880c73e48"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__materialisation.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__materialisation.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__materialisation_poster.png",
+    "frames": 6,
+    "sha256": "e63233223fdf32aad7ed64817572ed3dce11ac740da8837be555963770ad9747"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__alarme_soulignement.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__alarme_soulignement.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__alarme_soulignement_poster.png",
+    "frames": 6,
+    "sha256": "e2bf8937c4cedd7848d35ee28822587dfda1148db9736df5be944e60c54362d1"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__data_equalizer.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__data_equalizer.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__data_equalizer_poster.png",
+    "frames": 16,
+    "sha256": "91cf23d377d53a607cb8888f9f77e5db1ef41f294adf1da5f2b90aae865eef35"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__halo_expansion.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__halo_expansion.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__halo_expansion_poster.png",
+    "frames": 6,
+    "sha256": "7641ddadcc913400515d9d64462ac31d3f45186100402fb31c8d50ee77a03257"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__entree_notification.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__entree_notification.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__entree_notification_poster.png",
+    "frames": 5,
+    "sha256": "c8d579ed080a55a94d49cf27b3ea2fbe514cddf6b222580f46cf75d6cd1ca15b"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__flash_critique.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__flash_critique.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__flash_critique_poster.png",
+    "frames": 4,
+    "sha256": "80c56a4455e7537435c6e17e565d55b9c9d998b77a3f253d1dca824fe793de0d"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__flux_donnees.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__flux_donnees.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__flux_donnees_poster.png",
+    "frames": 5,
+    "sha256": "e023ca2b1701b1f4769625e899be0570f25129d009014dcd2c6aa95bc32cde5e"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__halo_ambiant.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__halo_ambiant.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__halo_ambiant_poster.png",
+    "frames": 6,
+    "sha256": "86a90379c47607427582c6bfff51f99ba380850daca9ad4f717d80ca6fae844c"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__anneaux_danger.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__anneaux_danger.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__anneaux_danger_poster.png",
+    "frames": 5,
+    "sha256": "f4f73d22d324d5e1596e223cff1408e3e6842db90a7822a7b16bbd02cabecb06"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__bouton_reessayer.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__bouton_reessayer.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__bouton_reessayer_poster.png",
+    "frames": 5,
+    "sha256": "127d634948b952c1145067c8b6a11b8e1967446c982bfbc5c4fb4242df99d184"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__entree_toast.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__entree_toast.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__entree_toast_poster.png",
+    "frames": 5,
+    "sha256": "57c27e263eb798e1a7b646a0f06b3cc181de1bbc449f5cc04d49b12adca0a093"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__focus_corners.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__focus_corners.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__focus_corners_poster.png",
+    "frames": 16,
+    "sha256": "ef7f8042260c87f4d4719b55752ad1e32e96dddb1ed24717c1f4da3a2867b06b"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__scanline.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__scanline.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__scanline_poster.png",
+    "frames": 5,
+    "sha256": "82cfdde04e3b9bb3dba9eb1b141b1a0d1111c79f19976981e871bf260464ec47"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__selection_radio.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__selection_radio.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__selection_radio_poster.png",
+    "frames": 5,
+    "sha256": "81e8256993b718560edb852b4b9ce72eee5ecc344f4c6875b5846a5c9f0a4864"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__apparition_recuperation.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__apparition_recuperation.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__apparition_recuperation_poster.png",
+    "frames": 4,
+    "sha256": "984e2efb399ccb3057a6facb0e85f5c113c07a555ddf97ede1c6a1bd5a280ef5"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__survol_menu.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__survol_menu.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__survol_menu_poster.png",
+    "frames": 5,
+    "sha256": "97a2376e96ccdbadd21ceb1c9ce4ed4461e2dcb46d17d289ff60360bb59f0b71"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__verrouillage_scan.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__verrouillage_scan.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__verrouillage_scan_poster.png",
+    "frames": 5,
+    "sha256": "6d7aac65c72a628e627935052e771ea05fede3e27c09af71e9e47dd06d7fb665"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__chevrons_flux.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__chevrons_flux.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__chevrons_flux_poster.png",
+    "frames": 5,
+    "sha256": "1f2a1e199d5adf5f167802b3aeb1e251cc1abc094a757cd66edfd7e4c2a4582e"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__radar_scan.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__radar_scan.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__radar_scan_poster.png",
+    "frames": 4,
+    "sha256": "7a93f1bc92e09a3e7f9a0080de352d20c8b181dbb3c1ad22a7805b96156bbf08"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__survol_dock.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__survol_dock.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__survol_dock_poster.png",
+    "frames": 5,
+    "sha256": "423b02b6fa6217fdae690a626c9d7dc8ef19f3bc3aae59d3bda51376149eff70"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__focus_corners.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__focus_corners.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__focus_corners_poster.png",
+    "frames": 16,
+    "sha256": "1f24ea0870ad3e57d8c493a9d7afc0eb17d42f5c6a4ef9047968b4776bb12459"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__confirmation_pulse.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__confirmation_pulse.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__confirmation_pulse_poster.png",
+    "frames": 6,
+    "sha256": "7e6bc5805366ff124b7eaae68144d446c8c16d73e8f3fec52c5149281e03807c"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__soulignement.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__soulignement.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__soulignement_poster.png",
+    "frames": 5,
+    "sha256": "aefd11d6a2c206a381c35524bf627ffb4bac2145186d5a6097f9986ac656d496"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__onglet_actif.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__onglet_actif.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__onglet_actif_poster.png",
+    "frames": 5,
+    "sha256": "21f770d10e9b18ce3d324e279d152d28adee0784de5fda12f75747e1b195880e"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__pile_notifications.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__pile_notifications.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__pile_notifications_poster.png",
+    "frames": 6,
+    "sha256": "47a6a5f5c3e29dceed771f8efd2b2093ec5c84a6df30caf99b245bc1db4dae3b"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__balises_alerte.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__balises_alerte.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__balises_alerte_poster.png",
+    "frames": 4,
+    "sha256": "2b97e0382e8614d3e209f09076679a0df5f9d144cc7be7d5c96a5ce069c71efa"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__etincelles_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__etincelles_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__etincelles_erreur_poster.png",
+    "frames": 4,
+    "sha256": "270dfa74c8d4f097d04e53548fb905523bfa1b8fab7941317212c95acbe744eb"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__spinner_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__spinner_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__spinner_erreur_poster.png",
+    "frames": 6,
+    "sha256": "3cee5eff3d60180f0b8c4de3eb5b4b7b218e1a438ff5d9d1fa34cb4f0498859f"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__chevrons.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__chevrons.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__chevrons_poster.png",
+    "frames": 16,
+    "sha256": "f70c06db9cde962a9d083aaffa0ab51c4c63a88719a5376250c7c4037a675642"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__anneaux_recuperation.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__anneaux_recuperation.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__anneaux_recuperation_poster.png",
+    "frames": 4,
+    "sha256": "7dc752c6d84f3d6d739f4e64e134e843127ef6b1255df5c86eae8d49fe133c45"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__snackbar.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__snackbar.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__snackbar_poster.png",
+    "frames": 4,
+    "sha256": "90a904b8ce17e4ac92e22f1e5db1670adcff93e2db86529a90c429bff1e67221"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__glass_shimmer.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__glass_shimmer.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__glass_shimmer_poster.png",
+    "frames": 15,
+    "sha256": "b6a98f84f76e4d560f187f9c70355949210b7bf04b5d0fbb4c3e4837f158ba61"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__action_destructive.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__action_destructive.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__action_destructive_poster.png",
+    "frames": 6,
+    "sha256": "2c71bd52c2383a9ee955016dd56b22e66e7ce258189a2bea1a483020b58b6b71"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__apparition_panneau.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__apparition_panneau.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__apparition_panneau_poster.png",
+    "frames": 5,
+    "sha256": "0b268628451d593131ee9d800465e49760abb27a7919041e7d35dcefae2ebda4"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__anneau_sequence.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__anneau_sequence.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__anneau_sequence_poster.png",
+    "frames": 12,
+    "sha256": "c8121f8fbfa6aa0fb26174be756b98cb91eabd4405392b1a6933e39f4113445c"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__pile_toasts.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__pile_toasts.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__pile_toasts_poster.png",
+    "frames": 5,
+    "sha256": "ef132ecdcc6f437bf03ee16c3058e286ef8104d67d1c9f2ad9dabd4f4906aeab"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__anneaux_radiaux.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__anneaux_radiaux.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__anneaux_radiaux_poster.png",
+    "frames": 5,
+    "sha256": "3824496b54911a44379403aba84f2b891bc0af16e949c7e7f007cfe5ba889115"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__activation_angles.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__activation_angles.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__activation_angles_poster.png",
+    "frames": 6,
+    "sha256": "c7e90832d89d23ea6c55ef491289d40607aea4cf8189a10d3698515c013404bb"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__holo_radar.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__holo_radar.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__holo_radar_poster.png",
+    "frames": 16,
+    "sha256": "9cee85a0c52b2ca6019909e71cde77cf352f2d4cff1cee13b9acdbb823e5440f"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__fermeture_sidebar.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__fermeture_sidebar.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__fermeture_sidebar_poster.png",
+    "frames": 5,
+    "sha256": "012818a25a6b8377f0f17fdb89963e771ffc0471a1a2803990ae4434cebcbf32"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__equaliseur_panique.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__equaliseur_panique.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__equaliseur_panique_poster.png",
+    "frames": 8,
+    "sha256": "517ca580ed282134e5456cd3c58cfa1b0aa250245975a2d23304ac5867834f2c"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__glass_shimmer.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__glass_shimmer.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__glass_shimmer_poster.png",
+    "frames": 15,
+    "sha256": "baac9cf01506f0aa5c6c3c4fafba9c789ae7c18dd50ae42e947f53ed9f15ab39"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__recherche_ouverture.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__recherche_ouverture.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__recherche_ouverture_poster.png",
+    "frames": 6,
+    "sha256": "e33637982213cbc4cc34811b2ff59ff4c5fa1fc1378e70143473b97a59d5c075"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__reflets_verre.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__reflets_verre.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__reflets_verre_poster.png",
+    "frames": 6,
+    "sha256": "b52561dd7d6ac8afb89846a904bdc4f9c00d0da3b86fd9d63a161e0c2bf3d57b"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__hud_reticle.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__hud_reticle.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__hud_reticle_poster.png",
+    "frames": 16,
+    "sha256": "0a67a818410fb1bd0c415937c69a47a9e24e47e43dd05acf6fcb2049fec13698"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__stroboscope_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__stroboscope_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__stroboscope_erreur_poster.png",
+    "frames": 6,
+    "sha256": "e5c0c61ee7d4d73c3568d7bb47ba77349e238114641c599b01bd58e2f028b788"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__hud_reticle.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__hud_reticle.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__hud_reticle_poster.png",
+    "frames": 16,
+    "sha256": "4e12d8bdc6dff306e519689c30116c3f9734e4c5f3e729ccf27567dc9591ac06"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__ouverture_menu_contextuel.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__ouverture_menu_contextuel.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__ouverture_menu_contextuel_poster.png",
+    "frames": 4,
+    "sha256": "05502bd30cb0c4e40c15f495bc1e8c56fa70b71b22049fa6ad150b04be19366d"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__badge_pulse.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__badge_pulse.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__badge_pulse_poster.png",
+    "frames": 6,
+    "sha256": "dc41833072eed29903544c44caf6494c1ce0dd9c10e9fd5b5f9c6fdcb4758ced"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__appel_clignotant.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__appel_clignotant.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__appel_clignotant_poster.png",
+    "frames": 5,
+    "sha256": "83219ae49b09ef242cb72beeafaf4cd0671f1a5f66c36060385798676cde3988"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__signal_scintillant.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__signal_scintillant.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__signal_scintillant_poster.png",
+    "frames": 5,
+    "sha256": "10c0000072ca58951a2afe5a756372f9b2fded871f48f4a24dc084dc163ad5b8"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__ouverture_fenetre.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ouverture_fenetre.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__ouverture_fenetre_poster.png",
+    "frames": 6,
+    "sha256": "b88b30843f2a6431e9443cf5d1436012f62942cf4fbd7e6641608145bfc5521e"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__ouverture_dialogue_alerte.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__ouverture_dialogue_alerte.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__ouverture_dialogue_alerte_poster.png",
+    "frames": 5,
+    "sha256": "a89c7395504ac062dbe85e6ead81a86d6505f65f105589c722acc269d3731b2d"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__halo_alarme.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__halo_alarme.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__halo_alarme_poster.png",
+    "frames": 4,
+    "sha256": "dd912be10f3f78c6e2ae24521805dc2860de6304dc918e6784bcfc62335c21ed"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__glitch_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__glitch_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__glitch_erreur_poster.png",
+    "frames": 5,
+    "sha256": "b3156456f68ae3c739b457267000020de50835bebd571ba1d0b0de5c6b44dcd6"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__explosion_radiale.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__explosion_radiale.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__explosion_radiale_poster.png",
+    "frames": 6,
+    "sha256": "9f9e4fd96cc2ef621e30bbf9f034194b9b7b815e183e5aa35fad57d871907150"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__flash_bouton_danger.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__flash_bouton_danger.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__flash_bouton_danger_poster.png",
+    "frames": 5,
+    "sha256": "2e13d9915e002c3299d0a312bea225823d678d2a7907e9c89c95ab04eee526be"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__bouton_supprimer.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__bouton_supprimer.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__bouton_supprimer_poster.png",
+    "frames": 5,
+    "sha256": "db67d954f8655ed66884e5654776ba89c5687a7977bb886bd27cd675faab8c03"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__spinner.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__spinner.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__spinner_poster.png",
+    "frames": 12,
+    "sha256": "e1ced946623f055fa3e1eff45af76e723d69f07b83f4de15ff1deba291fb5cd6"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__data_equalizer.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__data_equalizer.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__data_equalizer_poster.png",
+    "frames": 16,
+    "sha256": "4d120f25e1b27d2717b7fe9d76a7f3b50ab737954d6f2af8217ed5b976a26bb5"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__progression_corrompue.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__progression_corrompue.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__progression_corrompue_poster.png",
+    "frames": 8,
+    "sha256": "ae9328118f5e129233dfd199a640ab887d8f80a7041e1a74526874beeb31c07b"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__focus_champ.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__focus_champ.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__focus_champ_poster.png",
+    "frames": 5,
+    "sha256": "88dea0abf902fc0dd891eab49d3775e825d9e50410b40ffb2b76df48fd71b66a"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__reticules_alerte.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__reticules_alerte.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__reticules_alerte_poster.png",
+    "frames": 6,
+    "sha256": "8e2ed57ec9fa4baad634da0b27e128cf7416e1e0dd6dc8eab7a87e212587e876"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__light_sweep.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__light_sweep.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__light_sweep_poster.png",
+    "frames": 15,
+    "sha256": "d28500e6aa3bfc04f2597a8d6da5eb450f7ec990f73a00aa69b215a2a4eff1d7"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__progress_energy.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__progress_energy.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__progress_energy_poster.png",
+    "frames": 16,
+    "sha256": "f9d8badd9669a387941a309c100c7e33a624a261c783afb776678f4b9d8d5713"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__fermeture_fenetre.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__fermeture_fenetre.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__fermeture_fenetre_poster.png",
+    "frames": 6,
+    "sha256": "5d1bb929a869e6f5deba379dae583778db4b00eca9f47d2dc5e8e53320af95ec"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__neon_underline.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__neon_underline.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__neon_underline_poster.png",
+    "frames": 16,
+    "sha256": "223858d50b5eea35ff97f8107d5a45bf25e49216b0177313165cae14ac3792b9"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__pulse_banniere_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__pulse_banniere_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__pulse_banniere_erreur_poster.png",
+    "frames": 5,
+    "sha256": "56d055a7700678a433976d8c1b20d2431ff6ffaca8d208f6e04dc7dfa37bd022"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__nodes_flow.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__nodes_flow.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__nodes_flow_poster.png",
+    "frames": 5,
+    "sha256": "072ac25e66726e771094aaa2ebd053b618936b99039d8c7949099bcaa477e927"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__noeuds_reseau.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__noeuds_reseau.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__noeuds_reseau_poster.png",
+    "frames": 6,
+    "sha256": "cb7c4d66411a7307f889d2e6512824f49b96ac24e40bed952166fb16758cf257"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__deplacement_application.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__deplacement_application.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__deplacement_application_poster.png",
+    "frames": 6,
+    "sha256": "0f1b53d31c9a32074c50604d49a8bab83d768ab3d15b76ccbda17a8108f9b167"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__pulse_ring.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__pulse_ring.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__pulse_ring_poster.png",
+    "frames": 16,
+    "sha256": "22ed0b7fd6626a9cf13c2b06b403fd6b3300fab4ab6e507c1f45d293f9324d39"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__infobulle_avertissement.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__infobulle_avertissement.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__infobulle_avertissement_poster.png",
+    "frames": 4,
+    "sha256": "967c6e00dcffc71119d277223b1b50585803778f1a0f388baf55b1743988af5e"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Loops_Strips__telemetrie.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__telemetrie.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__loops_strips__telemetrie_poster.png",
+    "frames": 5,
+    "sha256": "9e835415c96580ee99a135aaa00c8f50d84a2ca65bce1769a4b0fd3dea43b80c"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__spinner.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__spinner.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__spinner_poster.png",
+    "frames": 12,
+    "sha256": "23999c4d2beb1e2a034c5f668b7f7ba17a7ba9f758e4308ccc12d8fe3744b9b1"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__light_sweep.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__light_sweep.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__light_sweep_poster.png",
+    "frames": 15,
+    "sha256": "2e9bb17bc26a714929d417a1e3f5b15ea6cd59da033d90bb36c8e971825dd876"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__curseur_terminal.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__curseur_terminal.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__curseur_terminal_poster.png",
+    "frames": 4,
+    "sha256": "7ba65925dd1acc876c8fc9787548c060f1d523e0407d7831cb8457a4ac5d4781"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__progress_energy.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__progress_energy.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__progress_energy_poster.png",
+    "frames": 16,
+    "sha256": "71a8cc0cc270e66b82038543d7e157dd97cdfe79e11256f99fabccb140296f2e"
+  },
+  {
+    "source": "animations/RougeERROR__Loops_Strips__entree_alerte.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__entree_alerte.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__loops_strips__entree_alerte_poster.png",
+    "frames": 8,
+    "sha256": "959f45ec0779a0d7a77640742f8e47defaf0a7ca510a05358c374d3433b75a32"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__anneau_energie.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__anneau_energie.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__anneau_energie_poster.png",
+    "frames": 6,
+    "sha256": "65bc6149d099ff725f56f63debc4eb249369fdd97066942a0cc8afce7e41ca3c"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__VFX__anneau_segment.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__anneau_segment.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__vfx__anneau_segment_poster.png",
+    "frames": 6,
+    "sha256": "b58f8653232bcd8ebc8165d8389b59bd0a11cad2b5c371bb034e0f7057f3635d"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__chevrons.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__chevrons.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__chevrons_poster.png",
+    "frames": 16,
+    "sha256": "41bdac6febf7f7ca283566c7f63180fd99eebf1c9e6cd98a42af99bade598990"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__clignotement_curseur.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__clignotement_curseur.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__clignotement_curseur_poster.png",
+    "frames": 4,
+    "sha256": "6a9345fd3379971126b385815ecd882c08e09affad86e590fc8e84fea412a618"
+  },
+  {
+    "source": "animations/RougeERROR__VFX__plateforme_holographique.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__vfx__plateforme_holographique.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__vfx__plateforme_holographique_poster.png",
+    "frames": 5,
+    "sha256": "633aa7a805cf6b5f71cff909e43af822808013f5fe0bce68f556ed264eb9e76f"
+  },
+  {
+    "source": "animations/RougeERROR__Production_Alpha__pulse_ring.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__pulse_ring.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__production_alpha__pulse_ring_poster.png",
+    "frames": 16,
+    "sha256": "d1a66a5a8a2b7e3bb5632c178804c1943bc5e1a5227001c5b7008a39c5d46960"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__palette_commande.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__palette_commande.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__palette_commande_poster.png",
+    "frames": 4,
+    "sha256": "62df46f24e2452677cc80a71c397dad55eabd09eb7fdaea455be5b148f59cf91"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Production_Alpha__scanline.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__scanline.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__production_alpha__scanline_poster.png",
+    "frames": 16,
+    "sha256": "f4619e5a47ef3b00c478360f6fefd3b41b15421c82c59859ac5d0097b38236c6"
+  },
+  {
+    "source": "animations/RougeERROR__Interfaces__apparition_code_erreur.gif",
+    "theme": "RedError",
+    "gif": "App/Assets/News/RedError/Animations/rougeerror__interfaces__apparition_code_erreur.gif",
+    "poster": "App/Assets/News/RedError/Animations/rougeerror__interfaces__apparition_code_erreur_poster.png",
+    "frames": 5,
+    "sha256": "3509ab88cee8569dd0c0b8ff2378b07acd86fa8bf903a1359aaba4027056a7e7"
+  },
+  {
+    "source": "animations/ElectroBlueNEON__Interfaces__rafraichissement_web.gif",
+    "theme": "BlueNeon",
+    "gif": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__rafraichissement_web.gif",
+    "poster": "App/Assets/News/BlueNeon/Animations/electroblueneon__interfaces__rafraichissement_web_poster.png",
+    "frames": 8,
+    "sha256": "c6ed979d778ce22bc4fec5d0c198403fe6457a9027f5d7c43aaa0fed6a0976b0"
+  },
+  {
+    "source": "planches/RougeERROR__VFX.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/RougeERROR__VFX.jpg",
+    "sha256": "3331f8574f6247d889a90592386c3346905ba28ad39a8515017e9275a7a2b487"
+  },
+  {
+    "source": "planches/ElectroBlueNEON__Interfaces.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/ElectroBlueNEON__Interfaces.jpg",
+    "sha256": "65f57b4c8bd678d16cb273a892edda543f4fce657bfd9d21845649d9b588e91b"
+  },
+  {
+    "source": "planches/ElectroBlueNEON__Loops_Strips.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/ElectroBlueNEON__Loops_Strips.jpg",
+    "sha256": "83611b2a9cc2713f73ab2ea7b5d9555c1ae5bfc62d7db7c7c40027cb3cf203ae"
+  },
+  {
+    "source": "planches/RougeERROR__Production_Alpha.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/RougeERROR__Production_Alpha.jpg",
+    "sha256": "cdd08aa2cad560239d29df7f20a19783061550e7a1037b962487bb8200caaf32"
+  },
+  {
+    "source": "planches/RougeERROR__Loops_Strips.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/RougeERROR__Loops_Strips.jpg",
+    "sha256": "ece0e2e7fc5f77a3108ecd3932a1e67bc3026d104485b9457e330e8b6165037f"
+  },
+  {
+    "source": "planches/ElectroBlueNEON__VFX.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/ElectroBlueNEON__VFX.jpg",
+    "sha256": "180a395187e30580a591a4e9ea34f4526b8b243c3c6d20033b011d820370346e"
+  },
+  {
+    "source": "planches/ElectroBlueNEON__Production_Alpha.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/ElectroBlueNEON__Production_Alpha.jpg",
+    "sha256": "df66d7cfd7034fb387cc60cb14c153b6c2c116d1cd830bd5190583d755e0e74f"
+  },
+  {
+    "source": "planches/RougeERROR__Interfaces.jpg",
+    "reference_sheet": "App/Assets/News/ReferenceSheets/RougeERROR__Interfaces.jpg",
+    "sha256": "f05c41abd780eed83ace338ffad43135430c44659c551daa637c4bb6e88321ab"
+  }
+]
