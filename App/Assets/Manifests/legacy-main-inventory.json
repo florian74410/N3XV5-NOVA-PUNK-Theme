@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "source_repo": "florian74410/Health-and-Perfs---Navigation-Controler-Bar",
+  "source_branch": "main",
+  "note": "Initial inventory only, media not yet imported; more branches and local archives must be indexed.",
+  "total": 49,
+  "files": [
+    {
+      "path": "Assets/Overlays/nova_pcb_overlay.svg",
+      "sha": "0e03f8e50b0b526b4f533f643bfa398164ed03a4",
+      "bytes": 3150,
+      "kind": "vector"
+    },
+    {
+      "path": "Assets/Previews/nova-v070-installer.png",
+      "sha": "ef8d5ea8bfe7c218941a7dda1bca52f5b8a41953",
+      "bytes": 244826,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v070-terminal-column.png",
+      "sha": "e3949e1e5894d73003579ebf82c5ca0f1da47ec0",
+      "bytes": 285310,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v070-terminal-manager.png",
+      "sha": "765318cfc1f8c7b87eb0d02c2918f2d486616a9b",
+      "bytes": 317622,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v072-terminal-column.png",
+      "sha": "dc5ecf376876d169535fe67fae027a5500dd1566",
+      "bytes": 288222,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v072-terminal-manager.png",
+      "sha": "51d8e35c2c3244801e45e3cc58ebae041334c84c",
+      "bytes": 320416,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v074-explorer-controls.png",
+      "sha": "02691282cc10dd46b4c168416b7aefb79948d902",
+      "bytes": 123342,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v074-terminal-column.png",
+      "sha": "df12cc9a3d89e56b13145c2dbfa7132536957eb4",
+      "bytes": 288957,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v074-terminal-manager.png",
+      "sha": "db995e252eef6dff150fc3c8aa533e3eebff3b7e",
+      "bytes": 320372,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/nova-v075-terminal-scrollback.png",
+      "sha": "2164bfe36a9d8b209c9acba7fe4fe3e44ddac17b",
+      "bytes": 469473,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v051-holo-cpu.png",
+      "sha": "2431ca3a3aec3379063f5b352d3525999ca35b1d",
+      "bytes": 44169,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v051-holo-network.png",
+      "sha": "aae9e3c82fd97cd51bd6d5d4145f7dcc21aacb3b",
+      "bytes": 31776,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v051-normal.png",
+      "sha": "c35f22818ec73bd0a0a5afc4b16c0ba0111458e1",
+      "bytes": 40012,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v051-transparent-holo.png",
+      "sha": "d0770b284479545296d178428066cb69ca985976",
+      "bytes": 132759,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v052-network-blue-neon.png",
+      "sha": "7ef11757060c2041fe77b17aadcdb8b11657c1d1",
+      "bytes": 84725,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v052-network-contrast.png",
+      "sha": "3d7b9f1e41c96586e1e6fa8dad383824d3632e13",
+      "bytes": 310833,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v052-network-green-matrix.png",
+      "sha": "2c779c04059093f7b2210ccfdf336164bcbea3f5",
+      "bytes": 83857,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v053-cpu-network.png",
+      "sha": "ed6514535b8a3bd7768cfc9610e1770257d8081f",
+      "bytes": 167563,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v053-holo-glass-themes.png",
+      "sha": "c3df9a5e50a7620af5ba8f96292969c2ada6f392",
+      "bytes": 236146,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v053-overview.png",
+      "sha": "205b1b03d5cd0033d06762a81c385c033e6eb3a2",
+      "bytes": 212313,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v0610-bottom.png",
+      "sha": "857cf78e1af14b67e3d2e99141c2195150156a8f",
+      "bytes": 55827,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v0610-upgrade.png",
+      "sha": "2c57fc2edf48fa6323c43b8c8cbc46f0092bb896",
+      "bytes": 24337,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v0611-cockpit-1280.png",
+      "sha": "4247901b013aa8cbaf26103e1321b1ba0f8dea80",
+      "bytes": 35855,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v0611-cockpit-1920.png",
+      "sha": "199a0570c196374ff038e159f6860d19ace8dc58",
+      "bytes": 37432,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Previews/novabar-v0611-nexus.png",
+      "sha": "2f6a0443dde3b3d72281f8e28d072e2a6ed7f730",
+      "bytes": 68855,
+      "kind": "raster"
+    },
+    {
+      "path": "Assets/Wallpapers/nova-electric-blue-pcb.svg",
+      "sha": "c490186a26496a5d452cf316b7c8a038c0c1f01d",
+      "bytes": 2171,
+      "kind": "vector"
+    },
+    {
+      "path": "Plugins/cpu-manager-viewer-v2.0.0.zip",
+      "sha": "e23457b5a79e066bc46a1628bc6a1275999566ab",
+      "bytes": 4974,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/cpu-manager-viewer-v2.1.0.zip",
+      "sha": "7c076105cc0aad335f079c59d78630427f25a737",
+      "bytes": 4003,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/cpu-temperature-viewer-v1.0.0.zip",
+      "sha": "4b0e6485eacac2710ceb572a4df95fa750379fa3",
+      "bytes": 4229,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/cpu-temperature-viewer-v1.1.0.zip",
+      "sha": "54879a5b45f3527b6fec0f1c3a9725b34642213f",
+      "bytes": 3686,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/fans-viewer-v1.0.0.zip",
+      "sha": "c19f04b3844a800aa4d620ece64f930cf0a0cd6b",
+      "bytes": 4097,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/fans-viewer-v1.1.0.zip",
+      "sha": "31e77d9b110b1be6907cc918bc85c3b731d36115",
+      "bytes": 3634,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/gpu-manager-viewer-v1.0.0.zip",
+      "sha": "6c9e8db60ceb03a3418644f469ed46c869ea784e",
+      "bytes": 4440,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/gpu-manager-viewer-v1.1.0.zip",
+      "sha": "903f685009774d2f0db3fefbb4afa4ce9ddefbff",
+      "bytes": 3804,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/network-viewer-v1.0.0.zip",
+      "sha": "4619b7c32526693b5f401d23d45e6e777e2e2715",
+      "bytes": 4191,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/network-viewer-v1.1.0.zip",
+      "sha": "087871e2091af0868f77be1a11a5716e2c414ef9",
+      "bytes": 3642,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/power-viewer-v1.0.0.zip",
+      "sha": "0b60b1cd11547d005dbfea62b1d428a4fe25a267",
+      "bytes": 3893,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/ram-viewer-v1.0.0.zip",
+      "sha": "6c322fcff06ca3355a78f22d20f3fcf75a305b92",
+      "bytes": 4230,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/ram-viewer-v1.1.0.zip",
+      "sha": "d981cd08f1e7d2b8677317298fa1c8d336af315d",
+      "bytes": 3664,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/storage-viewer-v1.0.0.zip",
+      "sha": "014a26386d5ec030104975b854f8f7b8f351d01b",
+      "bytes": 4447,
+      "kind": "archive"
+    },
+    {
+      "path": "Plugins/storage-viewer-v1.1.0.zip",
+      "sha": "1b0d59e890b74f50505e50d5d18aa70d87e9da9d",
+      "bytes": 3787,
+      "kind": "archive"
+    },
+    {
+      "path": "docs/novabar-neon-preview.png",
+      "sha": "e6e9fe6d1112e8017de3a95fc5eb10e2499b5e1b",
+      "bytes": 202271,
+      "kind": "raster"
+    },
+    {
+      "path": "docs/novabar-normal-holo-neon.svg",
+      "sha": "549a04e80f614d66bcc319113d5fc330e4b4be07",
+      "bytes": 11807,
+      "kind": "vector"
+    },
+    {
+      "path": "docs/novabar-slim-preview.png",
+      "sha": "88ab3ecc15c38e985523c49a3f41ab1b6775bd41",
+      "bytes": 42668,
+      "kind": "raster"
+    },
+    {
+      "path": "docs/wiki/assets/architecture.svg",
+      "sha": "9f205cbe81d5ea1ce64baf9b30adc716e54dc174",
+      "bytes": 1662,
+      "kind": "vector"
+    },
+    {
+      "path": "docs/wiki/assets/banner.svg",
+      "sha": "cfe47e2690c944d090ab5d039f442f96abcfb964",
+      "bytes": 1795,
+      "kind": "vector"
+    },
+    {
+      "path": "docs/wiki/assets/holo-cpu.svg",
+      "sha": "250060c0d6ea2097ac81ef2fe6571f7c5654187b",
+      "bytes": 2537,
+      "kind": "vector"
+    },
+    {
+      "path": "docs/wiki/assets/interface.svg",
+      "sha": "a38324a3831122692817992bceb256f277434b93",
+      "bytes": 2077,
+      "kind": "vector"
+    },
+    {
+      "path": "docs/wiki/assets/plugins.svg",
+      "sha": "dfa7eff852ab7cc65def19e06140a1664b0e786c",
+      "bytes": 1442,
+      "kind": "vector"
+    }
+  ]
+}
