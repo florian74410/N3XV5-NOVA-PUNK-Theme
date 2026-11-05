@@ -1,0 +1,45 @@
+#!/usr/bin/python3
+"""Minimal privileged Turbo switch; called only through pkexec.
+
+This file MUST be root-owned at /usr/local/libexec/n3xvs-hud-turbo.
+Never execute user-controlled Python files with pkexec.
+"""
+import os
+import sys
+from pathlib import Path
+
+ALLOWED = (
+    (Path('/sys/devices/system/cpu/intel_pstate/no_turbo'), True),
+    (Path('/sys/devices/system/cpu/cpufreq/boost'), False),
+)
+
+
+def main():
+    if os.geteuid() != 0:
+        print('Administrative authorization required.', file=sys.stderr)
+        return 10
+    if len(sys.argv) != 2 or sys.argv[1] not in ('on', 'off'):
+        print('Usage: n3xvs-hud-turbo on|off', file=sys.stderr)
+        return 2
+    desired = sys.argv[1] == 'on'
+    for path, inverted in ALLOWED:
+        if path.is_file():
+            before = path.read_text(encoding='ascii').strip()
+            if before not in ('0', '1'):
+                print('Unknown kernel switch value', file=sys.stderr)
+                return 4
+            raw = '0' if desired == inverted else '1'
+            if before != raw:
+                path.write_text(raw, encoding='ascii')
+            final = path.read_text(encoding='ascii').strip()
+            if final != raw:
+                print('Kernel did not apply requested Turbo mode', file=sys.stderr)
+                return 5
+            print('Turbo ON' if desired else 'Turbo OFF')
+            return 0
+    print('No compatible kernel Turbo switch was found.', file=sys.stderr)
+    return 3
+
+
+if __name__ == '__main__':
+    sys.exit(main())
