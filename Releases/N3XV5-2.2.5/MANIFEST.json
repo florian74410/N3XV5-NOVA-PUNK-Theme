@@ -1,0 +1,1 @@
+{"name":"N3XV5 HUD Native Unified","version":"2.2.5-rc1","platform":"Linux Mint XFCE X11","base":"NovaBar 0.8.2.2REDBLACK","content":["Top NativeQt", "Bottom Slim NativeQt", "metrics module", "autostart launcher", "Turbo helper", "tests", "installer", "updater", "uninstaller"],"validation":"static and isolated unit tests; runtime XFCE pending"}
