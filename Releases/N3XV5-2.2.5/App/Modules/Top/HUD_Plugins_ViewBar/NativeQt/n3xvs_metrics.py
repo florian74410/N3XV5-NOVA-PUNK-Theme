@@ -101,10 +101,12 @@ class InternetSpeedTest:
     def _work(self):
         cmd=None;variant=None
         # No subprocess/shell for utilities which are not already installed.
-        if shutil.which('speedtest'):
-            cmd=['speedtest','--accept-license','--accept-gdpr','--format=json'];variant='ookla'
-        elif shutil.which('speedtest-cli'):
+        # The Python speedtest-cli package may also install a binary named
+        # 'speedtest'. Prefer its unambiguous executable when both exist.
+        if shutil.which('speedtest-cli'):
             cmd=['speedtest-cli','--json','--secure'];variant='legacy'
+        elif shutil.which('speedtest'):
+            cmd=['speedtest','--accept-license','--accept-gdpr','--format=json'];variant='ookla'
         try:
             if cmd is None:
                 raise RuntimeError('Installer speedtest ou speedtest-cli pour mesurer le débit Internet')
