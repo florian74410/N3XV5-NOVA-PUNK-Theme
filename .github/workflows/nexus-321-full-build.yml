@@ -1,0 +1,46 @@
+name: NEXUS 3.2.1 full source build
+on:
+  push:
+    branches:
+      - work/nexus-v3.2.1-gaming-panel-settings
+    paths-ignore:
+      - 'Releases/NEXUS-3.2.1-FULL/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble full 3.2.1 source from archived stable baseline
+        run: |
+          set -euo pipefail
+          python3 App/Core/GamingSleep/stage_v32.py \
+            --source Releases/NEXUS-3.1.8.3-STABLE/Source \
+            --dest /tmp/nexus-320-stage
+          python3 App/Core/GamingSleep/stage_v321.py \
+            --source /tmp/nexus-320-stage \
+            --dest /tmp/nexus-321-stage
+          python3 -m compileall -q /tmp/nexus-321-stage/App/Core/GamingSleep
+          python3 -m py_compile /tmp/nexus-321-stage/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
+          grep -q "game_sleep_enabled" /tmp/nexus-321-stage/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
+          test "$(cat /tmp/nexus-321-stage/VERSION.txt)" = "3.2.1-GAMING-PANEL-TEST"
+          mkdir -p Releases/NEXUS-3.2.1-FULL/Source
+          cp -a /tmp/nexus-321-stage/. Releases/NEXUS-3.2.1-FULL/Source/
+          tar -czf NEXUS-3.2.1-FULL-source.tar.gz -C Releases NEXUS-3.2.1-FULL
+      - name: Commit complete 3.2.1 source build into Git
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Releases/NEXUS-3.2.1-FULL/Source
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: snapshot complete NEXUS 3.2.1 source'
+            git push origin HEAD:work/nexus-v3.2.1-gaming-panel-settings
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NEXUS-3.2.1-FULL-source
+          path: NEXUS-3.2.1-FULL-source.tar.gz
+          retention-days: 30
