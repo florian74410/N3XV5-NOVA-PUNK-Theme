@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NEXUS HUD 3.1.8
+Comment=NEXUS Blue Neon HUD
+Exec=/bin/sh -c "exec /home/overflow/.local/bin/nexus-318 >> /home/overflow/.local/state/nexus-318/logs/nexus.log 2>&1"
+Terminal=false
+OnlyShowIn=XFCE;
+X-GNOME-Autostart-enabled=true
