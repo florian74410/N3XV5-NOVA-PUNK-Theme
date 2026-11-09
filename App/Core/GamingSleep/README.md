@@ -1,36 +1,42 @@
-# NEXUS 3.2 — Gaming Sleep Mode (development preview)
+# NEXUS 3.2 Gaming Sleep Mode — TEST (Macro / XFCE X11)
 
-**DO NOT deploy to Macro yet.** This is the development branch, not a stable build.
+This branch contains the imported exact 3.1.8.3-FULL baseline under
+`Releases/NEXUS-3.1.8.3-STABLE/Source/`. The **stable source remains unchanged**.
+Production on Macro must not be overwritten during development.
 
-## Goal
-Automatically detect Dolphin, stop NEXUS graphical effects/telemetry, restore the original XFCE panel during play, then restore NEXUS after Dolphin exits. The user does not want any permanent reduction in NEXUS rendering quality.
+## Architecture
 
-## Current implementation
-- Minimal Python standard-library process watcher with exact command-name matching (2-second polling).
-- Debounced sleep/wake state machine; handles orderly watcher termination.
-- Dry-run preview and fail-safe configuration (all desktop mutations disabled by default).
-- Does **not** yet implement/claim tested XFCE or healthbar state management.
+- `stage_v32.py`: copy the 3.1.8.3-FULL source to a **new** staging tree, validate the entry point and inject a minimal Qt bridge. Never writes to the source tree.
+- `qt_bridge.py`: on SIGUSR1, a 200ms Qt timer calls `QApplication.quit()`, which triggers `bar.close()`; this closes Bottom Dock and invokes its existing `NativePanelGuard.restore()`. No style, particle or settings changes.
+- `watcher_v32.py`: independent low-cost process watcher checks for Dolphin every 2 seconds. Requests graceful exit of the verified **3.2 staged** Qt process, tracks that it stopped NEXUS, and relaunches the 3.2 staged launcher after Dolphin exits. Doesn't call xfce4-panel itself or touch the production 3.1.8.3 process.
+- `config.v32.example.json`: disabled by default.
 
-## Blocking issue — exact 3.1.8 baseline
-The repository's main branch contains earlier N3XV5 code, **not the verified full installed Macro NEXUS 3.1.8**.
-Do not label this earlier source as 3.1.8 or publish a stable tag until a validated snapshot of:
-`~/.local/share/nexus-318-full`, `~/.local/bin/nexus-318`, relevant systemd/autostart entries and installation metadata
-has been captured from Macro, compared with the running installation, audited for secrets and then committed to a release source tree.
+## Stage / syntax test — no desktop changes
 
-## Safe dry-run setup
 ```bash
-mkdir -p ~/.config/nexus-318
-cp App/Core/GamingSleep/config.example.json ~/.config/nexus-318/gaming-sleep.json
-python3 App/Core/GamingSleep/gaming_sleep.py --dry-run
+python3 App/Core/GamingSleep/stage_v32.py \
+  --source Releases/NEXUS-3.1.8.3-STABLE/Source \
+  --dest /tmp/nexus-320-test
+python3 -m py_compile /tmp/nexus-320-test/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
 ```
-Before enabling real actions, implement an adapter that cooperates with the existing `healthbar` XFCE restore mechanism. Do not kill processes with generic `pkill -f`; avoid duplicate panels. Implement idempotent sleep/wake commands, preserve NEXUS preferences, provide manual recovery and verify X11/Qt workareas.
 
-## Acceptance tests required
-1. Cold start with Dolphin absent: NEXUS unchanged.
-2. Dolphin launch: one transition to real XFCE panels, zero NEXUS animation/metrics workers.
-3. Dolphin exit: one transition back to original NEXUS 3.1.8 state.
-4. Rapid Dolphin relaunch, game crash, watcher crash/restart, logout/login, manual recovery.
-5. Compare FPS, CPU/RAM and thermals on Intel HD 3000; check no duplicate bars.
-6. Validate installer update and rollback to exact stable 3.1.8.
+The actual test launcher must set the **staged** tree root, existing compatible PySide6 venv, X11 display, and `HEALTHBAR_DATA_DIR` pointing to a separate 3.2 test profile. Set `launcher` in JSON accordingly. The stable 3.1.8.3 autostart must not be changed.
 
-Nothing here is a release of 3.2. A draft PR is appropriate until validated on Macro.
+## Known limitations / release blockers
+
+1. No integrated Qt Settings UI toggle yet.
+2. No installation or rollback package yet; watcher is not enabled or installed.
+3. Actual XFCE restoration and watcher recovery must be validated on Macro.
+4. Dolphin identification needs validation with actual `/proc/*/cmdline` on Macro.
+5. No automatic stable deployment; before production promotion, add a user-level service and recovery CLI with single-instance locking.
+6. `watcher_v32.py` requires that NEXUS be started from staged source and its patched Qt bridge be active. Never enable watcher against unpatched 3.1.8.
+7. A second running 3.1.8 instance can interfere with 3.2 testing. Only perform graphical integration tests from a safe XFCE session with backup and recovery procedures.
+
+## Acceptance tests
+- No Dolphin: no transition.
+- Dolphin started: exactly one graceful NEXUS stop; XFCE original panel returns.
+- Dolphin exits: staged NEXUS restarts with unchanged appearance.
+- Crash and rapid relaunch, watcher shutdown/startup, logout, game closure; no duplicated panel.
+- CPU/GPU usage measured against stable baseline.
+
+Until these tests pass, PR remains draft and installation is opt-in only.
