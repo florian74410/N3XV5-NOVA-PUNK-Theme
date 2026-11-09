@@ -3,9 +3,11 @@ on:
   push:
     branches:
       - work/nexus-v3.2.1-gaming-panel-settings
+    paths-ignore:
+      - 'Releases/NEXUS-3.2.1-FULL/**'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,9 +26,19 @@ jobs:
           python3 -m py_compile /tmp/nexus-321-stage/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
           grep -q "game_sleep_enabled" /tmp/nexus-321-stage/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
           test "$(cat /tmp/nexus-321-stage/VERSION.txt)" = "3.2.1-GAMING-PANEL-TEST"
-          mkdir -p dist/NEXUS-3.2.1-FULL
-          cp -a /tmp/nexus-321-stage/. dist/NEXUS-3.2.1-FULL/
-          tar -czf NEXUS-3.2.1-FULL-source.tar.gz -C dist NEXUS-3.2.1-FULL
+          mkdir -p Releases/NEXUS-3.2.1-FULL/Source
+          cp -a /tmp/nexus-321-stage/. Releases/NEXUS-3.2.1-FULL/Source/
+          tar -czf NEXUS-3.2.1-FULL-source.tar.gz -C Releases NEXUS-3.2.1-FULL
+      - name: Commit complete 3.2.1 source build into Git
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Releases/NEXUS-3.2.1-FULL/Source
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: snapshot complete NEXUS 3.2.1 source'
+            git push origin HEAD:work/nexus-v3.2.1-gaming-panel-settings
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: NEXUS-3.2.1-FULL-source
