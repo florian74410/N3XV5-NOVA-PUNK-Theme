@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+ROOT="$HOME/.local/share/nexus-318-full"
+[[ -n "${DISPLAY:-}" ]] || { echo 'Session X11 nécessaire' >&2; exit 2; }
+export QT_QPA_PLATFORM=xcb
+export HEALTHBAR_DATA_DIR="$HOME/.config/nexus-v3-hybrid"
+export PYTHONPATH="$ROOT:$ROOT/Legacy/Health-and-Perfs---Navigation-Controler-Bar/src${PYTHONPATH:+:$PYTHONPATH}"
+exec "$ROOT/.venv/bin/python" "$ROOT/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py" --legacy "$ROOT/Legacy/Health-and-Perfs---Navigation-Controler-Bar" "$@"

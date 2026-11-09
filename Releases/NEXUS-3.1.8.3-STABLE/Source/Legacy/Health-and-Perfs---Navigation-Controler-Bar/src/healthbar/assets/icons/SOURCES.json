@@ -1,0 +1,107 @@
+[
+  {
+    "file": "firefox.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/firefox.svg",
+    "sha256": "662f712b309a615f6ffb388d37ecda0ce789bb0bc54e6c4d5b0cc1169495666e"
+  },
+  {
+    "file": "org.mozilla.firefox.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/firefox.svg",
+    "sha256": "662f712b309a615f6ffb388d37ecda0ce789bb0bc54e6c4d5b0cc1169495666e"
+  },
+  {
+    "file": "system-file-manager.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/system-file-manager.svg",
+    "sha256": "389963ce9dcd2ed4945c62a16b2ff277b978d51d2dff50a9b76ac03967ed4fd1"
+  },
+  {
+    "file": "org.xfce.thunar.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/system-file-manager.svg",
+    "sha256": "389963ce9dcd2ed4945c62a16b2ff277b978d51d2dff50a9b76ac03967ed4fd1"
+  },
+  {
+    "file": "utilities-terminal.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/utilities-terminal.svg",
+    "sha256": "e012085d169034e338c2c143a803b30d32fe1923783503e33adb81d58e30ee6c"
+  },
+  {
+    "file": "org.xfce.terminal.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/utilities-terminal.svg",
+    "sha256": "e012085d169034e338c2c143a803b30d32fe1923783503e33adb81d58e30ee6c"
+  },
+  {
+    "file": "accessories-text-editor.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/accessories-text-editor.svg",
+    "sha256": "f526936aa29dcd0fd48e7f08a5ebe25e0a29ec03a6ac249017f84911dbc515f3"
+  },
+  {
+    "file": "preferences-system.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/utilities-tweak-tool.svg",
+    "sha256": "467b23c3b05e793fad524d5f62781fd99394fcfde421d9b564d81d6c6102271f"
+  },
+  {
+    "file": "applications-other.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/applications-other.svg",
+    "sha256": "807e82e1b8e0dd213e8bb674c5b9a4e5c10a1a7fb9c7ee5998ff2dd48459529d"
+  },
+  {
+    "file": "accessories-calculator.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/accessories-calculator.svg",
+    "sha256": "25d2aa7e4b15fbe0b5d6a8e2377b845deb339877b3575d68928128344b58a391"
+  },
+  {
+    "file": "multimedia-video-player.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/multimedia-video-player.svg",
+    "sha256": "1531764164f779ce2f029ee8bed49c2f6ca3c64d9aebfe4cfe7346247273fb32"
+  },
+  {
+    "file": "applications-graphics.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/preferences-desktop-color.svg",
+    "sha256": "96d0d63543a486fd63c3df29a42e2621f466a32b79145e45f937707020339468"
+  },
+  {
+    "file": "filezilla.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/filezilla.svg",
+    "sha256": "1a471c05afa7103e14346dae880e8d213c6cf9708a6675d4e36b292183d6fbcf"
+  },
+  {
+    "file": "bitwarden.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/bitwarden.svg",
+    "sha256": "af127257f9b5561db0b35ab1a23eba6c135466f58ed49897011ad62ea12f5b77"
+  },
+  {
+    "file": "ktorrent.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/ktorrent.svg",
+    "sha256": "873369845405bc816ae9cc8eecaafa0e6dfc4ae366b17ece771d946b84138f1e"
+  },
+  {
+    "file": "dolphin-emu.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/dolphin-emu.svg",
+    "sha256": "f2ab757b5f65233d936a45855bd0171191add3a2366ccb4df1f046c8af3f460e"
+  },
+  {
+    "file": "vlc.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/vlc.svg",
+    "sha256": "971548982067966c0ffe7fb8acd09f620fecb76bc8434551b266a2379087cae2"
+  },
+  {
+    "file": "libreoffice-writer.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/libreoffice-writer.svg",
+    "sha256": "dee2b84a92bffc1e34405aff57d3797ddd53f8ca4be6ba987b388ffc8ba9b377"
+  },
+  {
+    "file": "applications-games.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/preferences-desktop-gaming.svg",
+    "sha256": "40434e60b348738bab78cbeba34de4a96601e25959d1c7075b34ecbfb45d6002"
+  },
+  {
+    "file": "applications-development.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/apps/applications-development.svg",
+    "sha256": "dccff5de8fd9876a2825b050909a89057c27b37090a2da30c309c7c11939033f"
+  },
+  {
+    "file": "folder.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/48x48/places/folder-blue.svg",
+    "sha256": "e9335dbc48f38943156b35756b16734933b303518f384b0f8e3439222402df8f"
+  }
+]
