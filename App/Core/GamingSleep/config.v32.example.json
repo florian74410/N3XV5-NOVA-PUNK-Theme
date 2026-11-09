@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "applications": ["dolphin-emu", "dolphin", "dolphin-emu-qt2"],
+  "interval": 2,
+  "target_script": "~/.local/share/nexus-320-test/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py",
+  "launcher": "~/.local/bin/nexus-320-test"
+}

@@ -1,0 +1,34 @@
+name: NEXUS 3.2 Gaming Sleep staging
+
+on:
+  push:
+    branches: [work/nexus-v3.2-gaming-sleep]
+  pull_request:
+    paths:
+      - 'App/Core/GamingSleep/**'
+      - 'Releases/NEXUS-3.1.8.3-STABLE/**'
+      - '.github/workflows/nexus-32-gaming-tests.yml'
+
+jobs:
+  static-staging:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Python modules
+        run: |
+          python3 -m py_compile App/Core/GamingSleep/*.py
+          bash -n App/Core/GamingSleep/install_macro_test.sh
+          python3 -m compileall -q Releases/NEXUS-3.1.8.3-STABLE/Source/App
+      - name: Verify stable source snapshot is not edited
+        run: |
+          set -euo pipefail
+          SOURCE=Releases/NEXUS-3.1.8.3-STABLE/Source
+          grep -Fxq '3.1.8.3-FULL' "$SOURCE/VERSION.txt"
+          sha256sum "$SOURCE/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py" > /tmp/nexus318.sha
+          python3 App/Core/GamingSleep/stage_v32.py --source "$SOURCE" --dest /tmp/nexus320-test
+          sha256sum -c /tmp/nexus318.sha
+          grep -Fxq '3.2.0-GAMING-SLEEP-TEST' /tmp/nexus320-test/VERSION.txt
+          grep -Fq 'install_game_sleep_bridge(app, app)' /tmp/nexus320-test/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
+          ! grep -Fq 'install_game_sleep_bridge(app, app)' "$SOURCE/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py"
+          python3 -m py_compile /tmp/nexus320-test/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
+          python3 -m py_compile /tmp/nexus320-test/App/Core/GamingSleep/qt_bridge.py

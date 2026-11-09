@@ -1,0 +1,1 @@
+Frozen GLib must not load host GVFS plugins from this empty module directory.
