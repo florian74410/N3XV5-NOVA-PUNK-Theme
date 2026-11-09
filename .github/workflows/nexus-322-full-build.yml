@@ -1,0 +1,42 @@
+name: NEXUS 3.2.2 complete source snapshot
+on:
+  push:
+    branches: [work/nexus-v3.2.2-gaming-bottom-only]
+    paths-ignore:
+      - 'Releases/NEXUS-3.2.2-FULL/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create complete 3.2.2 source tree
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p Releases/NEXUS-3.2.2-FULL/Source
+          cp -a Releases/NEXUS-3.2.1-FULL/Source/. Releases/NEXUS-3.2.2-FULL/Source/
+          echo '3.2.2-GAMING-BOTTOM-TEST' > Releases/NEXUS-3.2.2-FULL/Source/VERSION.txt
+          python3 -m py_compile Releases/NEXUS-3.2.2-FULL/Source/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
+          python3 -m py_compile Releases/NEXUS-3.2.2-FULL/Source/App/Core/GamingSleep/watcher_v322.py
+          python3 -m py_compile Releases/NEXUS-3.2.2-FULL/Source/App/Core/GamingSleep/qt_bridge.py
+          grep -q 'install_game_sleep_bridge(app, bar)' Releases/NEXUS-3.2.2-FULL/Source/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
+          grep -q 'game_sleep_enabled' Releases/NEXUS-3.2.2-FULL/Source/App/Modules/Top/HUD_Plugins_ViewBar/NativeQt/n3xvs_top_native.py
+          tar -czf NEXUS-3.2.2-FULL-source.tar.gz -C Releases NEXUS-3.2.2-FULL
+      - name: Publish complete build back to Git
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Releases/NEXUS-3.2.2-FULL/Source
+          if ! git diff --cached --quiet; then
+            git commit -m "build: publish full NEXUS 3.2.2 gaming Bottom-only"
+            git push origin HEAD:work/nexus-v3.2.2-gaming-bottom-only
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NEXUS-3.2.2-FULL-source
+          path: NEXUS-3.2.2-FULL-source.tar.gz
+          retention-days: 30
