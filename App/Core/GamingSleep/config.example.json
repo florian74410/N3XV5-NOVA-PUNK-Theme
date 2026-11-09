@@ -1,0 +1,12 @@
+{
+  "_comment": "Preview only. Never enable until actual NEXUS 3.1.8 / healthbar lifecycle commands have been validated on Macro.",
+  "enabled": false,
+  "local_adapter_verified": false,
+  "applications": ["dolphin-emu", "dolphin-emu-qt2", "dolphin"],
+  "interval_seconds": 2,
+  "debounce_samples": 2,
+  "commands": {
+    "sleep": [],
+    "wake": []
+  }
+}
