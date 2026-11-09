@@ -107,7 +107,7 @@ for d in pathlib.Path("/proc").iterdir():
     if not d.name.isdecimal() or int(d.name)==os.getpid():continue
     try:
         if d.stat().st_uid != os.getuid():continue
-        argv=[v.decode("utf-8","replace") for v in (d/"cmdline").read_bytes().split(b"\\0") if v]
+        argv=[v.decode("utf-8","replace") for v in (d/"cmdline").read_bytes().split(b"\0") if v]
         if any(pathlib.Path(a).name in old and "/GamingSleep/" in a for a in argv):
             os.kill(int(d.name),signal.SIGTERM)
     except (OSError,ValueError):pass
