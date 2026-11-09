@@ -99,6 +99,19 @@ for d in pathlib.Path("/proc").iterdir():
         if any(target in argv for target in prefixes):os.kill(int(d.name),signal.SIGTERM)
     except (OSError,ValueError):pass
 PY
+# Stop any manually launched legacy watchers (exact script path match only).
+python3 - <<'PY'
+import os,pathlib,signal
+old={"watcher_v32.py","watcher_v321.py"}
+for d in pathlib.Path("/proc").iterdir():
+    if not d.name.isdecimal() or int(d.name)==os.getpid():continue
+    try:
+        if d.stat().st_uid != os.getuid():continue
+        argv=[v.decode("utf-8","replace") for v in (d/"cmdline").read_bytes().split(b"\\0") if v]
+        if any(pathlib.Path(a).name in old and "/GamingSleep/" in a for a in argv):
+            os.kill(int(d.name),signal.SIGTERM)
+    except (OSError,ValueError):pass
+PY
 sleep 2
 nohup "$LAUNCHER" >> "$LOG/nexus.log" 2>&1 </dev/null &
 sleep 3
