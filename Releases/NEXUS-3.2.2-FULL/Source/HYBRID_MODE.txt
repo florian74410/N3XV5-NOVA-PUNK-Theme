@@ -1,0 +1,2 @@
+UI: V2 native Qt copied from installed N3XV5
+V3 controller/core: staged only, not yet authoritative for V2 widgets
