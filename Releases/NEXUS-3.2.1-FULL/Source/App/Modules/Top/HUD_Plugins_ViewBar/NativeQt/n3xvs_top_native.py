@@ -1005,8 +1005,6 @@ def main():
     _install_qt_painter(prefs)
     from n3xvs_metrics import SPEED_TEST
     app=QApplication([sys.argv[0]])
-    from App.Core.GamingSleep.qt_bridge import install_game_sleep_bridge
-    _nexus_gaming_timer = install_game_sleep_bridge(app, app)
     app.setApplicationName('N3XV5 HUD Theme • Unified Qt XFCE')
     app.setQuitOnLastWindowClosed(False)
     # Strictly separate from ~/.config/health-perfs-bar and installed executables.
@@ -1611,6 +1609,8 @@ def main():
             raise SystemExit('Failed to save preview')
         bar.close();return 0
     bar.show()
+    from App.Core.GamingSleep.qt_bridge import install_game_sleep_bridge
+    _nexus_gaming_timer = install_game_sleep_bridge(app, bar)
     app.aboutToQuit.connect(bar.close)
     return app.exec()
 

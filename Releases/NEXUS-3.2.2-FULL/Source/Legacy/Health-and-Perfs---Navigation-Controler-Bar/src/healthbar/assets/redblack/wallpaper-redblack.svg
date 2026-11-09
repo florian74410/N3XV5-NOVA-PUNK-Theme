@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<radialGradient id="rad" cx=".47" cy=".48" r=".9"><stop stop-color="#26050C"/><stop offset=".36" stop-color="#110408"/><stop offset=".82" stop-color="#050406"/><stop offset="1" stop-color="#010204"/></radialGradient>
+<linearGradient id="red" x2="1" y2="1"><stop stop-color="#550612"/><stop offset=".45" stop-color="#FF1537"/><stop offset="1" stop-color="#6B071A"/></linearGradient>
+<linearGradient id="metal"><stop stop-color="#010204"/><stop offset=".5" stop-color="#202027"/><stop offset=".7" stop-color="#4E141F"/><stop offset="1" stop-color="#020204"/></linearGradient>
+<pattern id="hex" width="66" height="57" patternUnits="userSpaceOnUse"><path d="M33 1L65 19V38L33 56 1 38V19Z" fill="none" stroke="#D21833" stroke-width=".8" opacity=".16"/></pattern>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#rad)"/>
+<rect width="1920" height="1080" fill="url(#hex)"/>
+<g fill="none" stroke="#500718" stroke-width="22" opacity=".45"><path d="M1320 0 1630 380 1320 760"/><path d="M1470 0 1780 380 1470 760"/><path d="M1620 0 1920 380 1620 760"/></g>
+<g fill="none" stroke="url(#metal)" stroke-width="42" opacity=".82"><path d="M1350 0 1670 390 1350 780"/><path d="M1480 0 1800 390 1480 780"/></g>
+<g fill="none" stroke="#DF162F" stroke-width="3" opacity=".65"><path d="M1340 0 1645 384 1340 776"/><path d="M1534 0 1834 382 1534 776"/></g>
+<g fill="none" stroke="url(#red)" stroke-width="1.8" opacity=".78">
+<path d="M0 130h250l66 66h184l46 46h282M0 160h220l91 91h170l63 63h244M0 188h160l85 85h200l65 65h260"/>
+<path d="M0 620h185l82-82h180l52-52h232M0 661h168l101-101h201l46-46h210M0 700h134l116-116h195l72-72h201"/>
+<path d="M0 854h300l60-60h180l65-65h154M0 896h258l77-77h209l55-55h175"/>
+<path d="M1920 914h-200l-100-100h-160l-60-60h-245M1920 962h-242l-92-92h-166l-44-44h-220"/>
+<path d="M348 0v68l97 97v122M392 0v52l103 103v113M517 0v81l59 59v109M1100 1080V941l-88-88V727M1164 1080V945l-68-68V731"/>
+</g>
+<g fill="#F62A48" opacity=".92"><circle cx="828" cy="242" r="5"/><circle cx="788" cy="314" r="4"/><circle cx="770" cy="338" r="5"/><circle cx="731" cy="486" r="5"/><circle cx="718" cy="512" r="4"/><circle cx="759" cy="729" r="5"/><circle cx="774" cy="764" r="4"/><circle cx="1156" cy="826" r="5"/></g>
+<g fill="#F62A48" filter="url(#glow)" opacity=".4"><circle cx="828" cy="242" r="14"/><circle cx="770" cy="338" r="14"/><circle cx="759" cy="729" r="16"/><circle cx="1156" cy="826" r="15"/></g>
+<g opacity=".46"><path d="M502 354H1090l44 44v211l-43 43H502l-44-44V399Z" fill="#040407" stroke="#C21D3D" stroke-width="2"/><path d="M487 401H1104M483 607H1110" stroke="#DE2C44"/></g>
+<text x="795" y="485" font-family="DejaVu Sans,sans-serif" font-size="88" font-weight="bold" letter-spacing="17" text-anchor="middle" fill="#FC3653" opacity=".72">NOVA</text>
+<text x="795" y="550" font-family="DejaVu Sans,sans-serif" font-size="35" letter-spacing="8" text-anchor="middle" fill="#D98E9B" opacity=".78">REDBLACK</text>
+<text x="795" y="591" font-family="DejaVu Sans,sans-serif" font-size="14" letter-spacing="6" text-anchor="middle" fill="#D9485F" opacity=".8">CYBER ELECTRONIC SYSTEM 0.8.2.2</text>
+</svg>
