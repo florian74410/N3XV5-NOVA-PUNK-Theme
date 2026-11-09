@@ -1,29 +1,53 @@
-"""Optional NEXUS 3.2 QT bridge: request graceful exit for gaming mode.
+"""NEXUS 3.2.2 — gaming mode: hide TOP only, retain NEXUS BottomDock.
 
-This module does not change any styling or timers. It is installed ONLY into
-a separately staged 3.2 source tree. No modification of installed 3.1.8.3.
+Signals are delivered only to the exact staged NEXUS Qt process by watcher_v322.
+No XFCE restoration/restart. No quit/close calls on the main HUD.
 """
+from __future__ import annotations
 import signal
 
-def install_game_sleep_bridge(app, qt_parent):
+def install_game_sleep_bridge(app, bar):
     from PySide6.QtCore import QTimer
-    requested = {"value": False}
-    previous = signal.getsignal(signal.SIGUSR1)
-
-    def request_sleep(_signum, _frame):
-        requested["value"] = True
-
-    signal.signal(signal.SIGUSR1, request_sleep)
-    timer = QTimer(qt_parent)
+    requested = {"mode": None}
+    previous_sleep = signal.getsignal(signal.SIGUSR1)
+    previous_wake = signal.getsignal(signal.SIGUSR2)
+    state = {"gaming": False}
+    def sleep(_signum, _frame):
+        requested["mode"] = True
+    def wake(_signum, _frame):
+        requested["mode"] = False
+    signal.signal(signal.SIGUSR1, sleep)
+    signal.signal(signal.SIGUSR2, wake)
+    timer = QTimer(bar)
     timer.setInterval(200)
     def poll():
-        if requested["value"]:
-            requested["value"] = False
-            timer.stop()
-            app.quit()  # aboutToQuit triggers bar.close(); bottom dock restores XFCE
+        mode = requested["mode"]
+        if mode is None:
+            return
+        requested["mode"] = None
+        if mode and not state["gaming"]:
+            # A Qt top-level BottomDock survives the TopBar being hidden.
+            if bar.bottom_dock is None:
+                bar.settings.bottom_dock_enabled = True
+                bar.sync_xfce_skin()
+            dock = bar.bottom_dock
+            if dock is None:
+                return  # Never leave the user without a navigation bar.
+            dock.show()
+            dock.raise_()
+            bar.hide_timer.stop()
+            bar.hide()
+            state["gaming"] = True
+        elif not mode and state["gaming"]:
+            bar.show()
+            # arm_hide is the existing NEXUS automatic retract policy.
+            bar.arm_hide()
+            state["gaming"] = False
     timer.timeout.connect(poll)
     timer.start()
-    def restore_signal():
-        signal.signal(signal.SIGUSR1, previous)
-    app.aboutToQuit.connect(restore_signal)
+    def cleanup():
+        timer.stop()
+        signal.signal(signal.SIGUSR1, previous_sleep)
+        signal.signal(signal.SIGUSR2, previous_wake)
+    app.aboutToQuit.connect(cleanup)
     return timer
